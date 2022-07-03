@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLeakSample">
         <activity
+            android:name=".RegisterUnReleaseLeak"
+            android:exported="false" />
+        <activity
+            android:name=".ResourceNotReleaseLeak"
+            android:exported="false" />
+        <activity
+            android:name=".ThreadAliveLeak"
+            android:exported="false" />
+        <activity
+            android:name=".StaticFieldLeak"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
